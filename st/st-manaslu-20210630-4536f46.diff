@@ -59,7 +59,7 @@ index 6f05dce..f4cb343 100644
 +  [13] = "#9789c6", /* purple 151-137-198 */
 +  [14] = "#91c1ca", /* cyan   145-193-202 */
 +  [15] = "#b9b9b9", /* white  185-185-185 */
-+  
++
 +  [255] = 0,
 +
 +  /*More colors can be added after 255 to use with DefaultXX */
