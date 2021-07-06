@@ -3,7 +3,7 @@
    - Download the patch.diff file.
    - Use the ~patch~ program to apply the patch to st as follows,
      #+begin_src sh
-       cd st-directory
+       cd path/to/st
        patch -p1 < path/to/downloaded/patch.diff
      #+end_src
-   - If the patch fails there are probably too many patches already applied to your build of st. Manual patching by inspecting the diff should be quite easy in this case.
+   - If patching fails there are probably too many patches already applied to your build of st. Manual patching by inspecting the diff should be quite easy in this case.
