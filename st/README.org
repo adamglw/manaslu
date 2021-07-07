@@ -6,10 +6,15 @@
   This patch applies the Manaslu color theme to st.
   
 ** Intallation
-   - Download the patch.diff file.
-   - Use the ~patch~ program to apply the patch to st as follows,
+*Prerequisites:* st must already be downloaded, see [[https://st.suckless.org][st.suckless.org]] for download.
+
+- Download the patch.diff file.
+- Use the ~patch~ program to apply the patch to st as follows,
      #+begin_src sh
        cd path/to/st
        patch -p1 < path/to/downloaded/patch.diff
-     #+end_src
-   - If patching fails there are probably too many patches already applied to your build of st. Manual patching by inspecting the diff should be quite easy in this case.
+       #+end_src
+- Remove the config.def file if it already exists.
+- Compile and install st: ~sudo make clean install~.
+       
+If patching fails there are probably too many patches already applied to your build of st. Manual patching by inspecting the diff should be quite easy in this case.
