@@ -1,4 +1,10 @@
 * Manaslu color theme patch for st
+  st, or simple terminal, is a terminal emulator for the X Window System developed by [[https://suckless.org][suckless.org]].
+
+  st is minimal by default but it's easy to add functionality via patches.
+
+  This patch applies the Manaslu color theme to st.
+  
 ** Intallation
    - Download the patch.diff file.
    - Use the ~patch~ program to apply the patch to st as follows,
