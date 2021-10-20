@@ -1,0 +1,5 @@
+./img/manaslu-banner.png
+* What is this?
+  Manaslu is a dark colour scheme with purely monochrome backgrounds (no mad blue or brown tinges) with muted yet vibrant colours that make text unambiguous and readable.
+
+  Manaslu is inspired by Solarized, the Mountaineer vim colour scheme, and the more recent Mountian Scheme.
